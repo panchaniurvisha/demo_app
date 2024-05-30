@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:projects/screen/animated_add_delete_item.dart';
+import 'package:projects/screen/custome_scrollview.dart';
 import 'package:projects/screen/home_screen1.dart';
 
 void main() {
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const HomeScreen1(),
+      home:  AnimatedAddDeleteItemScreen(),
     );
   }
 }
